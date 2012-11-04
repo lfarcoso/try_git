@@ -9,13 +9,13 @@ function Card() {
     var sign;
     
     if(card >= 1 && card <= 13) {
-        sign = "Hearts";
+        sign = "corazones";
     } else if (card >= 14 && card <= 26) {
-        sign = "Diamonds";
+        sign = "diamantes";
     } else if (card >= 27 && card <= 39) {
-        sign =  "Clubs";
+        sign =  "picas";
     } else if (card >= 40 && card <= 52) {
-        sign = "Spades";
+        sign = "treboles";
     } else {
         sign = "card is out of range";
     }
